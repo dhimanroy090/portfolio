@@ -1,0 +1,144 @@
+.first {
+  width: 100%;
+  height: 100vh;
+}
+
+.bottun {
+  width: 50px;
+  box-sizing: content-box;
+  border: 1px solid rgb(8, 145, 187);
+  border-radius: 20px;
+  padding: 10px 40px;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  background-color: rgb(8, 145, 187);
+  transition: 0.2s ease;
+}
+
+.bottun:hover {
+  background-color: rgb(18, 182, 174);
+  border: 1px solid rgb(18, 182, 174);
+  color: rgb(20, 17, 17);
+  font-weight: 700;
+}
+
+.bottun2 {
+  box-sizing: border-box;
+  border: 1px solid rgb(8, 145, 187);
+  border-radius: 10px;
+  padding: 10px 15px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(8, 145, 187);
+}
+
+.bottun2:hover {
+  background-color: rgb(18, 182, 174);
+  border: 1px solid rgb(18, 182, 174);
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+
+.bottun3 {
+  background-color: #b68c5a;
+  border: none;
+  color: white;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Martian+Mono:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Martian+Mono:wght@500&family=Nunito:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Martian+Mono:wght@500&family=Nunito:wght@800&family=Roboto+Mono:ital,wght@1,700&display=swap");
+
+.name {
+  font-family: "Martian Mono", monospace;
+  font-size: 45px;
+  font-weight: 500;
+}
+.pos {
+  font-family: "Nunito", sans-serif;
+  font-size: 75px;
+  font-weight: 700;
+}
+.introduction {
+  padding-top: 170px;
+}
+
+/* second */
+.border {
+  width: 150px;
+}
+
+.box {
+  padding-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.box img {
+  width: 100%;
+  height: 200px;
+  box-shadow: 2px 4px 10px rgb(218, 219, 219);
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .box {
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .box {
+    padding-top: 30px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .skill-content {
+    padding-top: 20px;
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.pro_des {
+  box-sizing: content-box;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 15px;
+  margin: 10px 10px;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+}
+
+#skills {
+  padding-top: 120px;
+  padding-bottom: 50px;
+  color: #000000;
+}
+
+.skill-content {
+  padding-top: 20px;
+  font-size: 25px;
+  text-align: center;
+  display: flex;
+}
+.border2 {
+  width: 95px;
+}
+.skills-bar {
+  padding-top: 70px;
+}
+
+/* form */
+.con_heading h1 {
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 52px;
+  color: #414040;
+}
